@@ -18,6 +18,7 @@
 * [**Python 3.13** или новее](https://www.python.org/downloads/release/python-31314/)
 * [**Anifetch**](https://github.com/Notenlish/anifetch#installation-for-windows-winget-or-scoop)
 * [**Fastfetch**](https://github.com/fastfetch-cli/fastfetch)
+* [**Wallpaper Engine**]([https://github.com/fastfetch-cli/fastfetch](https://store.steampowered.com/app/431960/Wallpaper_Engine/))
 
 > 💡 Если всё это уже установлено благодаря видео выше — можете сразу переходить к установке rice.
 
