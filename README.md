@@ -1,60 +1,49 @@
-# rice
+# 🌲 rice
+
 Моя кастомизация **Windows 11 + PowerShell 7 + Windows Terminal**.
-## Requirements
-Перед установкой убедитесь, что у вас есть:
-* **Windows 11**
-* **PowerShell 7** — [установка](https://learn.microsoft.com/ru-ru/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.6)
-  Желательно устанавливать через `winget`.
-* **Windows Terminal**
-* **Python 3.13** — [Python 3.13.14](https://www.python.org/downloads/release/python-31314/)
-  Можно использовать более новую версию.
-* **anifetch** — [GitHub](https://github.com/Notenlish/anifetch#installation-for-windows-winget-or-scoop)
-  Желательно устанавливать через `winget`.
-* **Fastfetch** — [GitHub](https://github.com/fastfetch-cli/fastfetch)
-  Желательно устанавливать через `winget`.
 
-После установки можно проверить:
+В основном можете использовать эти видео как основу для установки и настройки:
 
-```powershell
-pwsh
-python --version
-anifetch --help
-fastfetch --help
-```
+* [Windows Ricing Guide](https://www.youtube.com/watch?v=9RJre4byy2g&t=1810s)
+* [Windows: Install Anifetch — animated logo in terminal](https://www.youtube.com/watch?v=c2bCuTne4OE&t=344s)
 
 ---
 
-# Installation
+## 📦 Requirements
 
-## 1. Добавление GIF
+Перед установкой убедитесь, что у вас уже установлены:
 
-Профиль использует GIF из папки:
+* **Windows 11**
+* [**PowerShell 7**](https://learn.microsoft.com/ru-ru/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.6)
+* [**Python 3.13** или новее](https://www.python.org/downloads/release/python-31314/)
+* [**Anifetch**](https://github.com/Notenlish/anifetch#installation-for-windows-winget-or-scoop)
+* [**Fastfetch**](https://github.com/fastfetch-cli/fastfetch)
+
+> 💡 Если всё это уже установлено благодаря видео выше — можете сразу переходить к установке rice.
+
+---
+
+# 🚀 Installation
+
+## 1. 🖼️ Добавление GIF
+
+Скопируйте `campfire.gif` из этого репозитория в папку:
 
 ```text
 %USERPROFILE%\Videos\
 ```
 
-В репозитории находятся **две GIF-анимации**.
-
-Скопируйте нужную GIF в:
+В итоге файл должен находиться здесь:
 
 ```text
-C:\Users\YOUR_USERNAME\Videos\
+C:\Users\ВАШ_ПОЛЬЗОВАТЕЛЬ\Videos\campfire.gif
 ```
 
-Путь должен выглядеть так:
-
-```text
-C:\Users\YOUR_USERNAME\Videos\campfire.gif
-```
-
-Для второй GIF используйте соответствующее имя файла из репозитория.
-
-> Если вы хотите использовать другое имя или другой GIF, измените путь к файлу в `Microsoft.PowerShell_profile.ps1`.
+> ⚠️ **Важно:** не переименовывайте `campfire.gif` и не перемещайте его из этой папки, если не хотите изменять `Microsoft.PowerShell_profile.ps1`.
 
 ---
 
-## 2. Установка PowerShell profile
+## 2. ⚡ PowerShell Profile
 
 Откройте **PowerShell 7** и выполните:
 
@@ -62,7 +51,7 @@ C:\Users\YOUR_USERNAME\Videos\campfire.gif
 notepad $PROFILE
 ```
 
-Если профиля ещё нет:
+Если файл профиля ещё не существует:
 
 ```powershell
 New-Item -ItemType File -Path $PROFILE -Force
@@ -74,7 +63,7 @@ New-Item -ItemType File -Path $PROFILE -Force
 notepad $PROFILE
 ```
 
-Замените содержимое файла содержимым:
+Откройте файл:
 
 ```text
 Microsoft.PowerShell_profile.ps1
@@ -82,54 +71,53 @@ Microsoft.PowerShell_profile.ps1
 
 из этого репозитория.
 
+**Скопируйте всё его содержимое и вставьте в открывшийся PowerShell profile.**
+
+Сохраните файл.
+
 ---
 
-## 3. Установка Windows Terminal settings
+## 3. 🪟 Windows Terminal
 
-Откройте **Windows Terminal**:
+Откройте **Windows Terminal**.
+
+Перейдите:
 
 **Settings → Open JSON file**
 
-Перед заменой обязательно сделайте резервную копию своего:
+Перед заменой рекомендуется сделать резервную копию текущего:
 
 ```text
 settings.json
 ```
 
-После этого замените его содержимое на файл:
+После этого замените содержимое на `settings.json` из этого репозитория.
 
-```text
-settings.json
-```
-
-из этого репозитория.
-
-> ⚠️ Это заменит текущие настройки Windows Terminal.
+> ⚠️ **Важно:** мой `settings.json` заменит ваши текущие настройки Windows Terminal.
 >
-> Если у вас уже есть свои профили, горячие клавиши, темы или другие настройки — сохраните старый `settings.json` и перенесите нужные параметры в мой файл вручную.
+> Если у вас уже есть собственные профили, горячие клавиши, темы или другие настройки — сохраните старый `settings.json` и перенесите нужные параметры в мой файл вручную.
 
 ---
 
-# Что в итоге получится
+# ✨ Что получится
 
-После установки при запуске PowerShell будет работать моя кастомизация с:
+После установки PowerShell будет использовать мою кастомизацию с:
 
-* Fastfetch
-* anifetch
-* GIF-анимацией
-* кастомным PowerShell profile
-* кастомным профилем Windows Terminal
-* Everforest цветовой схемой
-* Acrylic
-* кастомными горячими клавишами
+* ⚡ Fastfetch
+* 🎞️ Anifetch
+* 🔥 GIF-анимацией `campfire.gif`
+* 🌲 Everforest
+* 🪟 кастомным профилем Windows Terminal
+* ✨ Acrylic
+* ⌨️ кастомными горячими клавишами
 
-В `settings.json` профиль называется:
+Профиль Windows Terminal:
 
 ```text
 PowerShell 7 Cozy
 ```
 
-и использует цветовую схему:
+Основная цветовая схема:
 
 ```text
 Everforest Dark Soft
@@ -137,100 +125,4 @@ Everforest Dark Soft
 
 ---
 
-# Troubleshooting
-
-### `fastfetch is not recognized`
-
-Проверьте установку:
-
-```powershell
-winget list Fastfetch
-```
-
-При необходимости установите:
-
-```powershell
-winget install --id Fastfetch-cli.Fastfetch --source winget
-```
-
----
-
-### `anifetch is not recognized`
-
-Проверьте установку:
-
-```powershell
-winget list anifetch
-```
-
-При необходимости установите:
-
-```powershell
-winget install --id Notenlish.anifetch --source winget
-```
-
----
-
-### GIF не отображается
-
-Проверьте наличие файла:
-
-```powershell
-Test-Path "$HOME\Videos\campfire.gif"
-```
-
-Если результат:
-
-```text
-True
-```
-
-файл находится по правильному пути.
-
-Если:
-
-```text
-False
-```
-
-проверьте имя файла и расположение:
-
-```text
-$HOME\Videos
-```
-
----
-
-### PowerShell запускается без кастомизации
-
-Проверьте расположение профиля:
-
-```powershell
-$PROFILE
-```
-
-Откройте его:
-
-```powershell
-notepad $PROFILE
-```
-
-И убедитесь, что содержимое соответствует:
-
-```text
-Microsoft.PowerShell_profile.ps1
-```
-
-из этого репозитория.
-
----
-
-# Files
-
-```text
-.
-├── Microsoft.PowerShell_profile.ps1
-├── settings.json
-├── campfire.gif
-└── [second GIF]
-```
+**Enjoy your rice 🌲**
