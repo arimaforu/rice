@@ -1,0 +1,220 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "alwaysShowTabs": true,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "launchMode": "focus",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "newTabPosition": "afterLastTab",
+    "profiles": 
+    {
+        "defaults": {},
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "\u041a\u043e\u043c\u0430\u043d\u0434\u043d\u0430\u044f \u0441\u0442\u0440\u043e\u043a\u0430"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "colorScheme": "Everforest Dark Soft",
+                "commandline": "pwsh.exe -NoLogo -NoProfileLoadTime",
+                "cursorShape": "bar",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "weight": "bold"
+                },
+                "guid": "{a7e2f1c4-6b8d-4e35-9f21-7c5a82d1b604}",
+                "hidden": false,
+                "intenseTextStyle": "bright",
+                "name": "PowerShell 7 Cozy",
+                "opacity": 0,
+                "tabTitle": "Terminal",
+                "useAcrylic": true
+            }
+        ]
+    },
+    "rendering.graphicsAPI": "direct3d11",
+    "schemes": 
+    [
+        {
+            "background": "#272E33",
+            "black": "#475258",
+            "blue": "#7FBBB3",
+            "brightBlack": "#4B565C",
+            "brightBlue": "#7FBBB3",
+            "brightCyan": "#83C092",
+            "brightGreen": "#A7C080",
+            "brightPurple": "#D699B6",
+            "brightRed": "#E67E80",
+            "brightWhite": "#D3C6AA",
+            "brightYellow": "#DBBC7F",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#83C092",
+            "foreground": "#D3C6AA",
+            "green": "#A7C080",
+            "name": "Everforest Dark Medium",
+            "purple": "#D699B6",
+            "red": "#E67E80",
+            "selectionBackground": "#FFFFFF",
+            "white": "#D3C6AA",
+            "yellow": "#DBBC7F"
+        },
+        {
+            "background": "#48584E",
+            "black": "#293136",
+            "blue": "#7FBBB3",
+            "brightBlack": "#4B565C",
+            "brightBlue": "#7FBBB3",
+            "brightCyan": "#7FBBB3",
+            "brightGreen": "#A7C080",
+            "brightPurple": "#55544A",
+            "brightRed": "#5C3F4F",
+            "brightWhite": "#D3C6AA",
+            "brightYellow": "#DBBC7F",
+            "cursorColor": "#D3C6AA",
+            "cyan": "#83C092",
+            "foreground": "#D3C6AA",
+            "green": "#A7C080",
+            "name": "Everforest Dark Soft",
+            "purple": "#55544A",
+            "red": "#5C3F4F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#D3C6AA",
+            "yellow": "#DBBC7F"
+        },
+        {
+            "background": "#FFF9E8",
+            "black": "#5C6A72",
+            "blue": "#3A94C5",
+            "brightBlack": "#5C6A72",
+            "brightBlue": "#3A94C5",
+            "brightCyan": "#35A77C",
+            "brightGreen": "#8DA101",
+            "brightPurple": "#DF69BA",
+            "brightRed": "#F85552",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#DFA000",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#35A77C",
+            "foreground": "#5C6A72",
+            "green": "#8DA101",
+            "name": "Forest Night",
+            "purple": "#DF69BA",
+            "red": "#F85552",
+            "selectionBackground": "#FFFFFF",
+            "white": "#DFDDC8",
+            "yellow": "#DFA000"
+        },
+        {
+            "background": "#18181B",
+            "black": "#18181B",
+            "blue": "#E5E7EB",
+            "brightBlack": "#4B565C",
+            "brightBlue": "#E5E7EB",
+            "brightCyan": "#E5E7EB",
+            "brightGreen": "#E5E7EB",
+            "brightPurple": "#E5E7EB",
+            "brightRed": "#E5E7EB",
+            "brightWhite": "#E5E7EB",
+            "brightYellow": "#E5E7EB",
+            "cursorColor": "#E5E7EB",
+            "cyan": "#E5E7EB",
+            "foreground": "#E5E7EB",
+            "green": "#E5E7EB",
+            "name": "Monochrome",
+            "purple": "#E5E7EB",
+            "red": "#E5E7EB",
+            "selectionBackground": "#18181B",
+            "white": "#E5E7EB",
+            "yellow": "#E5E7EB"
+        },
+        {
+            "background": "#E5E7EB",
+            "black": "#18181B",
+            "blue": "#18181B",
+            "brightBlack": "#4B565C",
+            "brightBlue": "#18181B",
+            "brightCyan": "#18181B",
+            "brightGreen": "#18181B",
+            "brightPurple": "#18181B",
+            "brightRed": "#18181B",
+            "brightWhite": "#18181B",
+            "brightYellow": "#18181B",
+            "cursorColor": "#18181B",
+            "cyan": "#18181B",
+            "foreground": "#18181B",
+            "green": "#18181B",
+            "name": "Monochrome Light",
+            "purple": "#18181B",
+            "red": "#18181B",
+            "selectionBackground": "#18181B",
+            "white": "#18181B",
+            "yellow": "#18181B"
+        },
+        {
+            "background": "#1A1B26",
+            "black": "#414868",
+            "blue": "#7AA2F7",
+            "brightBlack": "#414868",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#73DACA",
+            "brightPurple": "#BB9AF7",
+            "brightRed": "#F7768E",
+            "brightWhite": "#C0CAF5",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#C0CAF5",
+            "cyan": "#7DCFFF",
+            "foreground": "#A9B1DC",
+            "green": "#73DACA",
+            "name": "Tokyo Night",
+            "purple": "#BB9AF7",
+            "red": "#F7768E",
+            "selectionBackground": "#28344A",
+            "white": "#C0CAF5",
+            "yellow": "#E0AF68"
+        }
+    ],
+    "tabSwitcherMode": "mru",
+    "tabWidthMode": "compact",
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
