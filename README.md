@@ -21,6 +21,14 @@
 
 > 💡 Если всё это уже установлено благодаря видео выше — можете сразу переходить к установке rice.
 
+### 🖼️ Wallpaper
+
+Для полного вида кастомизации используется:
+
+[**Cozy Campfire by Abi Toads**](https://steamcommunity.com/sharedfiles/filedetails/?id=3582809467)
+
+> 💡 Wallpaper Engine не обязателен для работы PowerShell-конфигурации, но именно эти обои используются в моём rice.
+
 ---
 
 # 🚀 Installation
@@ -110,6 +118,7 @@ settings.json
 * 🪟 кастомным профилем Windows Terminal
 * ✨ Acrylic
 * ⌨️ кастомными горячими клавишами
+* 🖼️ **Cozy Campfire by Abi Toads** в Wallpaper Engine
 
 Профиль Windows Terminal:
 
