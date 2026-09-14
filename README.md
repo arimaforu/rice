@@ -104,4 +104,11 @@ notepad $PROFILE
 
 ---
 
+<img width="2559" height="1440" alt="Снимок экрана 2026-09-14 032131" src="https://github.com/user-attachments/assets/9389d48e-de81-44a9-b0f6-b10bc712f504" />
+<img width="2559" height="1440" alt="Снимок экрана 2026-09-14 033016" src="https://github.com/user-attachments/assets/b23ffdec-8ba3-469b-a4bd-259b21790131" />
+<img width="2559" height="1440" alt="Снимок экрана 2026-09-14 032148" src="https://github.com/user-attachments/assets/50f2abd9-0dc8-4a53-92ec-fd16ca702860" />
+<img width="2559" height="1440" alt="Снимок экрана 2026-09-14 032142" src="https://github.com/user-attachments/assets/32f775d5-333b-4304-9119-bd8f9ee0bf3d" />
+
+---
+
 **Enjoy your rice 🌲**
