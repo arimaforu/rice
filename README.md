@@ -18,17 +18,27 @@
 * [**Python 3.13** или новее](https://www.python.org/downloads/release/python-31314/)
 * [**Anifetch**](https://github.com/Notenlish/anifetch#installation-for-windows-winget-or-scoop)
 * [**Fastfetch**](https://github.com/fastfetch-cli/fastfetch)
-* [**Wallpaper Engine**]([https://github.com/fastfetch-cli/fastfetch](https://store.steampowered.com/app/431960/Wallpaper_Engine/))
+* [**Scoop**](https://scoop.sh/)
+* [**YASB**](https://github.com/amnweb/yasb/wiki/Installation)
+* [**Windhawk**](https://windhawk.net/)
+* [**Komorebi**](https://lgug2z.github.io/komorebi/installation.html)
+* [**NileSoft-Shell**](https://nilesoft.org/download)
+* [**tacky-borders**](https://github.com/luke-you/tacky-borders)
+* [**Wallpaper Engine**](https://store.steampowered.com/app/431960/Wallpaper_Engine/)
 
 > 💡 Если всё это уже установлено благодаря видео выше — можете сразу переходить к установке rice.
 
-### 🖼️ Wallpaper
+---
 
-Для полного вида кастомизации используется:
+## 🖼️ Wallpaper Engine
 
-[**Cozy Campfire by Abi Toads**](https://steamcommunity.com/sharedfiles/filedetails/?id=3582809467)
+Для полного вида кастомизации используются обои:
 
-> 💡 Wallpaper Engine не обязателен для работы PowerShell-конфигурации, но именно эти обои используются в моём rice.
+**Cozy Campfire — by Abi Toads**
+
+[Открыть в Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3582809467)
+
+> 💡 Wallpaper Engine не обязателен для работы остальных компонентов, но эти обои используются в моём rice.
 
 ---
 
@@ -38,15 +48,11 @@
 
 Скопируйте `campfire.gif` из этого репозитория в папку:
 
-```text
-%USERPROFILE%\Videos\
-```
+`%USERPROFILE%\Videos\`
 
 В итоге файл должен находиться здесь:
 
-```text
-C:\Users\ВАШ_ПОЛЬЗОВАТЕЛЬ\Videos\campfire.gif
-```
+`C:\Users\ВАШ_ПОЛЬЗОВАТЕЛЬ\Videos\campfire.gif`
 
 > ⚠️ **Важно:** не переименовывайте `campfire.gif` и не перемещайте его из этой папки, если не хотите изменять `Microsoft.PowerShell_profile.ps1`.
 
@@ -60,7 +66,7 @@ C:\Users\ВАШ_ПОЛЬЗОВАТЕЛЬ\Videos\campfire.gif
 notepad $PROFILE
 ```
 
-Если файл профиля ещё не существует:
+Если файл профиля ещё не существует, выполните:
 
 ```powershell
 New-Item -ItemType File -Path $PROFILE -Force
@@ -72,15 +78,9 @@ New-Item -ItemType File -Path $PROFILE -Force
 notepad $PROFILE
 ```
 
-Откройте файл:
+Откройте файл `Microsoft.PowerShell_profile.ps1` из этого репозитория.
 
-```text
-Microsoft.PowerShell_profile.ps1
-```
-
-из этого репозитория.
-
-**Скопируйте всё его содержимое и вставьте в открывшийся PowerShell profile.**
+Скопируйте всё его содержимое и вставьте в открывшийся PowerShell profile.
 
 Сохраните файл.
 
@@ -94,44 +94,13 @@ Microsoft.PowerShell_profile.ps1
 
 **Settings → Open JSON file**
 
-Перед заменой рекомендуется сделать резервную копию текущего:
+Перед заменой рекомендуется сделать резервную копию текущего `settings.json`.
 
-```text
-settings.json
-```
-
-После этого замените содержимое на `settings.json` из этого репозитория.
+После этого замените его содержимое на `settings.json` из этого репозитория.
 
 > ⚠️ **Важно:** мой `settings.json` заменит ваши текущие настройки Windows Terminal.
 >
 > Если у вас уже есть собственные профили, горячие клавиши, темы или другие настройки — сохраните старый `settings.json` и перенесите нужные параметры в мой файл вручную.
-
----
-
-# ✨ Что получится
-
-После установки PowerShell будет использовать мою кастомизацию с:
-
-* ⚡ Fastfetch
-* 🎞️ Anifetch
-* 🔥 GIF-анимацией `campfire.gif`
-* 🌲 Everforest
-* 🪟 кастомным профилем Windows Terminal
-* ✨ Acrylic
-* ⌨️ кастомными горячими клавишами
-* 🖼️ **Cozy Campfire by Abi Toads** в Wallpaper Engine
-
-Профиль Windows Terminal:
-
-```text
-PowerShell 7 Cozy
-```
-
-Основная цветовая схема:
-
-```text
-Everforest Dark Soft
-```
 
 ---
 
